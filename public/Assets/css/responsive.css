@@ -1,0 +1,130 @@
+@media (max-width: 1199px) {
+	
+	.img-bg img:nth-child(1) {
+		visibility: hidden!important;
+	}
+
+}
+
+@media (max-width: 991px) {
+	.nav-href-lp {
+		margin-right: 0px;
+	}
+
+	.img-bg-banner {
+		display: none;
+	}
+
+	.content-text-lp {
+		width: 100%;
+		margin-bottom: 130px;
+		text-align: center;
+	}
+
+	.text-about {
+		width: 100%;
+	}
+
+	.img-about {
+		display: none;
+	}
+
+	.border-imac {
+		width: 100%;
+	}
+
+	.kontak {
+		width: 100%;
+	}
+}
+
+@media (max-width: 767px) {
+	.nav-href-lp {
+		width: 100%;
+	}
+
+	.nav-href-lp ul {
+		display: flex;
+		flex-wrap: wrap;
+		object-position: center;
+	}
+
+	.nav-href-lp ul li a {
+		margin-right: 0px;
+		padding: 0 10px;
+	}
+
+	.nav-href-lp ul li {
+		margin: 0 auto;
+	}
+
+	.img {
+		width: 100%;
+	}
+
+	.content-right-project {
+		width: 100%;
+	}
+
+	.cat-item {
+		flex-wrap: wrap;
+	}
+
+	.img-content-cat {
+		width: 100%;
+		height: 150px;
+	}
+
+	.content-hover-cat {
+		margin-top: 80px;
+	}
+
+	.content-hover-cat:hover {
+		height: 150px;
+	}
+
+	.content-hover-cat p:nth-child(2) {
+		display: none;
+	}
+	.logo-lp {
+		width: 100%;
+		display: flex;
+	}
+	.logo-anu {
+		margin: 0 auto;
+	}
+
+	.logo-hide img {
+		width: 30px;
+	}
+
+	.nav-right-hide ul li a {
+		display: none;
+	}
+
+	.nav-right-hide ul li span {
+		display: inline-flex;
+		margin-top: 0px;
+		font-size: 25px;
+	}
+	.text-lf {
+		width: 100%;
+		text-align: center;
+	}
+	.button-sub {
+		width: 100%;
+		text-align: center;
+	}
+
+	.email-form, .name-form, .text-form {
+		width: 100%;
+	}
+
+	.left-contact {
+		width: 100%;
+	}
+
+	.right-contact {
+		width: 100%;
+	}
+}
